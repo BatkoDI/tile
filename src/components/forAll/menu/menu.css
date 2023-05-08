@@ -1,0 +1,173 @@
+/* Navigation menu */
+.menu{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    z-index: 999;
+    top: 0;
+    background-color: #540009;
+    opacity: 0.9;
+}
+
+    .contactUs{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .frameButton{
+            position: relative;
+            width: 150px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .frameButton button{
+                width: calc(100% - 10px);
+                height: calc(100% - 10px);
+                cursor: pointer;
+                color: #FFFFFF;
+                background-color: #000000;
+            }
+
+            .frameTop{
+                width: 150px;
+                height: 2px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background-color: #FFFFFF;
+                animation: buttonFrameTop 5s infinite;
+            }
+
+            .frameBottom{
+                width: 150px;
+                height: 2px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                background-color: #FFFFFF;
+                animation: buttonFrameBottom 5s infinite;
+            }
+
+            .frameLeft{
+                width: 2px;
+                height: 40px;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                background-color: #FFFFFF;
+                animation: buttonFrameLeft 5s infinite;
+            }
+
+            .frameRight{
+                width: 2px;
+                height: 40px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                background-color: #FFFFFF;
+                animation: buttonFrameRight 5s infinite;
+            }
+
+    .link{
+        text-transform: uppercase;
+        text-align: center;  
+        width: 80%;
+    }
+
+        .menuLink{
+            display: inline-block;
+        }
+
+            .menuSection{
+                display: inline-block;
+                color: #FFFFFF;
+                text-decoration: none;
+                margin: 20px 30px;
+                z-index: 100;
+            }
+
+        .menuSection:hover{
+            color: #000000;
+            border-bottom: #000000;
+        }
+
+    @keyframes buttonFrameTop{
+        0% {width: 150px;}
+        10% {width: 150px;}
+        11% {width: 0px;}
+        20% {width: 0px;}
+        50% {width: 150px;}
+    }
+
+    @keyframes buttonFrameRight{
+        0% {height: 40px;}
+        10% {height: 40px;}
+        11% {height: 0px;}
+        50% {height: 0px;}
+        60% {height: 40px;}
+    }
+
+    @keyframes buttonFrameBottom{
+        0% {width: 150px;}
+        10% {width: 150px;}
+        11% {width: 0px;}
+        60% {width: 0px;}
+        90% {width: 150px;}
+    }
+
+    @keyframes buttonFrameLeft{
+        0% {height: 40px;}
+        10% {height: 40px;}
+        11% {height: 0px;}
+        90% {height: 0px;}
+        100% {height: 40px;}
+    }
+
+    .smallMenu{
+        display: none;
+        position: relative; 
+        width: 50%; 
+        height: 100%;
+    }
+
+        .smallMenuLine{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:#000000;
+            border: solid 2px #FFFFFF;
+            cursor: pointer;
+        }
+
+            .lineTop, .lineMidle, .lineBottom{
+                position: absolute;
+                width: 25px;
+                height: 2px;
+                background-color: #FFFFFF;
+            }
+
+            .lineTop{
+                transform: translateY(-10px);
+            }
+
+            .lineBottom{
+                transform: translateY(10px);
+            }
+
+        .smallMenuList{
+            width: 100%;
+            position: absolute;
+            background-color: #540009;
+            top: 60px;
+            left: -100%;
+            transition: all 1s;
+        }

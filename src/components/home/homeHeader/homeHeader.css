@@ -1,0 +1,96 @@
+.homeHeader{
+    width: 100%;
+    height: 100vh;
+}
+
+/* Main h1 */
+.homeH1{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #540009;
+    font-size: 8em;
+}
+
+/* Main video */
+.mainVideoDiv{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.mainVideo{
+    width: 100%;
+    height: 100%;
+}
+
+/* Main background left */
+.mainBackgroundLeft{
+    width: 60%;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 0% 80% 0% 0%;
+}
+
+/* Main images */
+.mainImage{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+    .mainImageDiv{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+        .mainImageFigure{
+            width: 80%;
+            height: 80%;
+            position: absolute;
+            top: 10%;
+            right: 0%;
+            overflow: hidden;
+        }
+
+            .mainImageFigure img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .mainImageFigure figcaption{
+                position: absolute;
+                bottom: 20%;
+                right: 10%;
+                width: 40%;
+                font-size: 1.5em;
+                background-color: #540009;
+                color: #FFFFFF;
+                padding: 5px;
+                opacity: 0.7;
+                backdrop-filter: blur(10px);
+            }
+    
+/* Main Title */
+.homeHeaderTitle{
+    position: absolute;
+    top: 30%;
+}
+
+    .homeHeaderTitle h2{
+        font-size: 2em;
+        color: #FFFFFF;
+        -webkit-text-stroke: 1px #540009;
+        text-transform: uppercase;
+    }
+ 

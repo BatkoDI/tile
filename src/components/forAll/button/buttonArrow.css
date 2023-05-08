@@ -1,0 +1,63 @@
+.stagesSectionButton{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .stagesSectionArrow{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+        .buttonLeft,
+        .buttonRight{
+            width: 50px;
+            height: 50px;
+            margin: 5%;
+            background-color: #000000;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: width 1s, height 1s;
+            cursor: pointer;
+        }  
+        
+            .arrow1,
+            .arrow3{
+                width: 8px;
+                height: 1px;
+                background-color: #FFFFFF;
+            }
+
+            .arrow2{
+                width: 24px;
+                height: 1px;
+                background-color: #FFFFFF;
+            }
+
+            .buttonLeft .arrow1{
+                transform: translate(-8px, -1px) rotate(-30deg);
+            }
+
+            .buttonLeft .arrow3{
+                transform: translate(-8px, 1px) rotate(30deg);
+            }
+
+            .buttonRight .arrow1{
+                transform: translate(8px, -1px) rotate(30deg);
+            }
+
+            .buttonRight .arrow3{
+                transform: translate(8px, 1px) rotate(-30deg);
+            }
+
+            .buttonLeft:hover, .buttonRight:hover{
+                width: 60px;
+                height: 60px;
+                background-color: #540009;
+            }
+            
+            

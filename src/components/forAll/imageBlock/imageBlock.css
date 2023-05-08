@@ -1,0 +1,14 @@
+.stagesSectionImage{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+    .stagesSectionImageDiv{
+        width: 100%;
+       overflow: hidden;                
+    }
+
+        .stagesSectionImageDiv img{
+            width: 100%;            
+        }

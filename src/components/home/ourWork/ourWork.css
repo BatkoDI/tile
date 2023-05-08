@@ -1,0 +1,89 @@
+.ourWorkSection{
+    width: 100%;
+    height: 100%;
+    margin: 15% 0;
+    overflow: hidden;
+}
+
+    .ourWorkSectionMain{
+        width: 100%;
+    }
+
+        .ourWorkSectionTape{
+            width: 100%;
+            overflow: hidden;
+        }
+
+            .ourWorkSectionTapeDiv{
+                display: flex;
+            }
+
+                .ourWorkSectionBlock{
+                    min-width: calc(100% - 2px);      
+                    border: solid 1px #000000;
+                    position: relative;
+                    display: flex;
+                    overflow: hidden;
+                }
+
+                    .ourWorkSectionBlock_Img{
+                        width: 50%;
+                        position: relative;
+                        border: solid 1px #000000;
+                    }
+
+                        .ourWorkSectionBlock_ImgView{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                            .ourWorkSectionBlock_ImgViewIn{
+                                width: 90%;
+                                margin: 5% 0;
+                                overflow: hidden;
+                            }
+
+                                .ourWorkSectionBlock_ImgView img{
+                                    width: 100%;
+                                }
+
+                        .ourWorkSectionBlock_ImgNumber{
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #FFFFFF;
+                            transition: width 2s 0.5s;
+                            z-index: 100;
+                        }
+
+                            .ourWorkSectionBlock_ImgNumber p{
+                                font-size: 8em;
+                                color: #540009;  
+                                transition: opacity 1.5s 0.5s; 
+                            }
+                    
+                    .ourWorkSectionBlock_Article{
+                        width: 50%;
+                        border: solid 1px #000000;
+                    }
+
+                        .ourWorkSectionBlock_ArticleImg{
+                            margin: 5%;
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
+                            background-color: #000000;
+                            overflow: hidden;
+                        }
+
+                        .ourWorkSectionBlock_ArticleTitle{
+                            margin: 5%;
+                        }

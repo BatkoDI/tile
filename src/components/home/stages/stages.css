@@ -1,0 +1,76 @@
+.stagesSection{
+    width: 100%;
+    height: 100%;
+    margin: 15% 0;
+    overflow: hidden;
+}
+
+    .stagesSectionTape{
+        width: 100%;
+        overflow: hidden;
+    }
+
+       .stagesSectionTapeDiv{
+            display: flex
+       }
+    
+            .stagesSectionBlok{
+                min-width: calc(50% - 2px);
+                height: 400px;
+                border: solid 1px #000000;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+            }
+
+            .stagesSectionBlok:hover{
+                background-color: #540009;
+                transition: background-color 0.5s;
+            }
+
+            .stagesSectionBlok:hover .stagesSectionBlok_Text{
+                opacity: 1;
+                left: 5%;
+                transition: opacity 0.5s, left 2s;
+            }
+
+            .stagesSectionBlok:hover .stagesSectionBlok_Title{
+                opacity: 0;
+                transition: opacity 0.5s
+            }
+
+            .stagesSectionBlok:hover .stagesSectionBlok_Number{
+                opacity: 0;
+                transition: opacity 0.5s
+            }
+
+                .stagesSectionBlok_Title{
+                    transition: opacity 0.5s;
+                }
+
+                .stagesSectionBlok_Number{
+                    position: absolute;
+                    top: 5%;
+                    right: 5%;
+                    font-size: 1.4em;
+                }
+
+                .stagesSectionBlok_Text{
+                    width: 90%;
+                    height: 80%;
+                    position: absolute;
+                    top: 10%;
+                    left: 100%;
+                    display: flex;
+                    align-items: center;
+                    opacity: 0;
+                    transition: opacity 0.5s;
+                    color: #FFFFFF;
+                    font-size: 1.5em;
+                }
+
+
+
+                   

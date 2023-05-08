@@ -1,0 +1,30 @@
+@import url(homeHeader/homeHeader.css);
+@import url(about/about.css);
+@import url(example/example.css);
+@import url(services/services.css);
+@import url(stages/stages.css);
+@import url(advantages/advantages.css);
+@import url(ourWork/ourWork.css);
+@import url(footer/footer.css);
+@import url(formSubmit/formSubmit.css);
+@import url(../forAll/button/buttonArrow.css);
+@import url(./media.css);
+
+body{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #540009;
+}
+
+
+
+

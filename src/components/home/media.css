@@ -1,0 +1,278 @@
+@media (max-width: 950px) {
+    /* menu.css */
+    .menu{
+        font-size: 70%;
+    }
+
+    .contactUs{
+        width: 30%;    
+    }
+
+    .link{
+        width: 70%;
+    }
+
+    /* homeHeader.css */
+    .homeH1{
+        font-size: 6em;
+    }
+
+    .homeHeaderTitle h2{
+        font-size: 1.5em;
+    }
+
+    .mainImageFigure figcaption{
+        bottom: 50%;
+        font-size: 1.3em;
+    }
+
+    /* about.css */
+    .aboutStatArticle_Stat{
+        font-size: 5em;
+    }
+
+    /* example.css */
+    .exampleSectionArticle h3{
+        font-size: 2em;
+    }
+
+    /* heqderH3 */
+    h3{
+        font-size: 2em;
+    }
+
+    /* stages.css */
+    .stagesSectionBlok_Text{
+        font-size: 1.2em;
+    }
+
+    /* buttonArrow.css */
+    .stagesSectionArrow{
+        width: 80%;
+    }
+
+    /* advantages.css */
+    .advantagesMain_BlockIconImg{
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    /* index.css */
+    h4{
+        font-size: 1.2em;
+      }
+
+    /* menu.css */
+    .smallMenu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactUs{
+        width: 40%;    
+    }
+
+    .link{
+        width: 60%;
+    }
+
+    .bigMenu{
+        display: none;
+    }
+
+    .menuLink{
+        display: block;
+    }
+
+    /* formSubmit.css */
+    .closeForm{
+        width: 40px;
+        height: 40px;
+    }
+
+    .closeForm:hover{
+        width: 50px;
+        height: 50px;
+    }
+
+    .closeForm_One, .closeForm_Two{
+        width: 25px;
+    }
+
+    /* homeHeader.css */
+    .homeH1{
+        font-size: 5em;
+    }
+
+    .homeHeaderTitle h2{
+        font-size: 1.2em;
+    }  
+    
+    /* about.css */
+    .aboutStatArticle_Stat{
+        font-size: 3.8em;
+    }
+
+    .aboutStatArticle_Text{
+        font-size: 1.2em;
+    }
+
+    /* example.css */
+    .exampleSectionArticle h3{
+        font-size: 1.8em;
+    }
+
+    /* headerH3.css */
+    h3{
+        font-size: 1.8em;
+    }
+
+    /* stages.css */
+    .stagesSectionBlok{
+        height: 300px;
+        text-align: center;
+    }
+
+    .stagesSectionBlok_Text{
+        font-size: 1em;
+    }
+
+    /* buttonArrow.css */
+    .stagesSectionArrow{
+        width: 100%;
+    }
+
+    /* advantages.css */
+    .advantagesMain_BlockIconImg{
+        width: 120px;
+        height: 120px;
+    }
+
+    .advantagesMain_BlockIconImg img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    /* index.css */
+    h4{
+        font-size: 1em;
+      }
+
+    /* menu.css */
+    .contactUs{
+        width: 50%;    
+    }
+
+    .link{
+        width: 50%;
+    }
+
+    .smallMenu{
+        width: 80%;
+    }
+
+    /* formSubmit.css */
+    .closeForm{
+        width: 30px;
+        height: 30px;
+    }
+
+    .closeForm:hover{
+        width: 40px;
+        height: 40px;
+    }
+
+    .closeForm_One, .closeForm_Two{
+        width: 20px;
+    }
+
+    /* homeHeader.css */
+    .homeHeaderTitle{
+        top: 20%;
+    }
+
+    .homeHeaderTitle h2{
+        font-size: 1.0em;
+    }  
+
+    .mainImageFigure figcaption{
+        width:50%;
+        right: 2%;
+    }
+
+    /* about.css */
+    .about{
+        margin: 40% 0% 0% 0%;
+    }
+
+    .aboutStat{
+        padding: 40% 0%;
+    }
+
+    .aboutStatArticle_Stat{
+        font-size: 3em;
+    }
+
+    .aboutStatArticle_Text{
+        font-size: 1em;
+    }
+
+    /* stages.css */
+    .stagesSectionBlok{
+        height: 250px;
+    }
+
+    .stagesSectionBlok_Text{
+        font-size: 0.8em;
+    }
+
+    /* buttonArrow.css */
+    .buttonLeft, .buttonRight{
+            width: 40px;
+            height: 40px;
+    }
+
+    .buttonLeft:hover, .buttonRight:hover{
+        width: 50px;
+        height: 50px;
+    }
+
+    .arrow2{
+        width: 20px;
+    }
+
+    /* advantages.css */
+    .advantagesMain_Block{
+        width: 100%;
+        height: 400px;
+    }
+
+    /* ourWork.css */
+    .ourWorkSectionBlock{
+        flex-wrap: wrap;
+    }
+
+    .ourWorkSectionBlock_Img{
+        width: 100%;
+    }
+
+    .ourWorkSectionBlock_Article{
+        width: 100%;
+    }
+
+    /* footer.css */
+    .contact{
+        width: 40%;
+        font-size: 60%;
+    }
+
+    .form{
+        width: 60%;
+    }
+
+}
