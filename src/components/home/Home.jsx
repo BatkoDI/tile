@@ -23,7 +23,7 @@ function Home() {
           <IconVideo />
         </div>
         <h1 className='homeH1'>
-          Tile Instalator
+          Tile Installator
         </h1>
         <HomeHeaderTitle />
         <div className='mainBackgroundLeft'></div>
